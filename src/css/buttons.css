@@ -1,0 +1,36 @@
+.btn {
+  padding: 14px 28px;
+  border-radius: 40px;
+  transition: var(--transition);
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background: white;
+}
+
+.btn-outline:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-gold {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-gold:hover {
+  transform: translateY(-2px);
+}

@@ -1,0 +1,38 @@
+:root {
+  /* Primary Theme */
+  --primary: #2e7d32;
+  --primary-dark: #1b5e20;
+  --primary-light: #66bb6a;
+
+  /* Secondary */
+  --secondary: #8d6e63;
+  --secondary-light: #bcaaa4;
+
+  /* Accent */
+  --accent: #d4af37;
+
+  /* Neutral */
+  --white: #ffffff;
+  --light: #f8faf7;
+  --light-gray: #eef2f0;
+  --gray: #7b7b7b;
+  --dark: #202124;
+
+  /* Success / Error */
+  --success: #43a047;
+  --danger: #e53935;
+  --warning: #fb8c00;
+
+  /* Shadow */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 18px 45px rgba(0, 0, 0, 0.18);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  /* Transition */
+  --transition: all 0.3s ease;
+}

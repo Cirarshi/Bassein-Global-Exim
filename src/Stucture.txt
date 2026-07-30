@@ -1,0 +1,59 @@
+src
+│
+├── assets
+│   ├── icons
+│   ├── images
+│   ├── logo
+│   └── products
+│
+├── components
+│   ├── common
+│   │   ├── Button.vue
+│   │   ├── SectionTitle.vue
+│   │   ├── Badge.vue
+│   │   ├── Card.vue
+│   │   ├── Loader.vue
+│   │   └── Modal.vue
+│   │
+│   ├── layout
+│   │   ├── Navbar.vue
+│   │   ├── Footer.vue
+│   │   └── FloatingButtons.vue
+│   │
+│   ├── home
+│   │   ├── Hero.vue
+│   │   ├── About.vue
+│   │   ├── WhyChooseUs.vue
+│   │   ├── ProductPreview.vue
+│   │   ├── ExportCountries.vue
+│   │   ├── Certifications.vue
+│   │   ├── Testimonials.vue
+│   │   ├── ContactCTA.vue
+│   │   └── FAQ.vue
+│   │
+│   └── product
+│       ├── ProductCard.vue
+│       ├── ProductGallery.vue
+│       ├── QuantitySelector.vue
+│       ├── ProductTabs.vue
+│       ├── RelatedProducts.vue
+│       └── ReviewCard.vue
+│
+├── pages
+│
+├── stores
+│
+├── router
+│
+├── data
+│
+├── css
+│   ├── variables.css
+│   ├── global.css
+│   ├── utilities.css
+│   ├── buttons.css
+│   ├── animations.css
+│   ├── responsive.css
+│   └── components
+│
+└── App.vue

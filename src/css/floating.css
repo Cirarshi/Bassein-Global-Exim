@@ -1,0 +1,57 @@
+.floating-buttons {
+  position: fixed;
+
+  right: 25px;
+
+  bottom: 30px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 18px;
+
+  z-index: 999;
+}
+
+.fab {
+  width: 60px;
+
+  height: 60px;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-size: 1.4rem;
+
+  color: white;
+
+  box-shadow: var(--shadow-lg);
+
+  transition: 0.3s;
+}
+
+.fab:hover {
+  transform: scale(1.08);
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+.call {
+  background: #1976d2;
+}
+
+.top {
+  background: var(--primary);
+
+  border: none;
+
+  cursor: pointer;
+}
